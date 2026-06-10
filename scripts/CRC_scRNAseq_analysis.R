@@ -490,54 +490,46 @@ H_epi <- cross_patient_reproducibility(GSEA_results, "epi")
 ###STEP 9: Saving figures ###
 #QC
 QC_all <- (VP_P1 | FS_P1) / (VP_P2 | FS_P2)
-ggsave("figures/QC.png", QC_all + plot_annotation
+ggsave("figures/1_QC.png", QC_all + plot_annotation
        (title = "Quality Control Metrics", 
          subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), width = 14, height = 10)
 
 
 #Normalization
-ggsave("figures/Normalization.png", LP_P1 + LP_P2, width = 14, height = 5)
+ggsave("figures/2_Normalization.png", LP_P1 + LP_P2, width = 14, height = 5)
 
 #Clustering + CellType
-ggsave("figures/markers_in_clusters.png", TM_P1 + TM_P2, width = 20, height = 8)
+ggsave("figures/3_Markers_in_clusters.png", TM_P1 + TM_P2, width = 20, height = 8)
 
-ggsave("figures/Cell_Type.png", (UMAP_P1con + UMAP_P2con) / (DP_P1 + DP_P2) 
+ggsave("figures/4_Cell_Type.png", (UMAP_P1con + UMAP_P2con) / (DP_P1 + DP_P2) 
        + plot_annotation(title = "Clustering + CellType", 
          subtitle = "Patient 1 (left), Patient 2 (right)"), width = 16, height = 12)
 
-ggsave("figures/celltype_diff_con.png", CT_P1con + CT_P2con, width = 20, height = 8)
+ggsave("figures/5_Cell_type_diff_con.png", CT_P1con + CT_P2con, width = 20, height = 8)
 
 #GSEA
-ggsave("figures/GSEA_GO_T_con.png", GSEA_GO_P1T / GSEA_GO_P2T + 
+ggsave("figures/6A_GSEA_GO_T_con.png", GSEA_GO_P1T / GSEA_GO_P2T + 
          plot_annotation(title = "GSEA for T-cell GO enrichment analysis", 
                          subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), 
        width = 15, height = 14)
-ggsave("figures/GSEA_GO_Epi_con.png", GSEA_GO_P1E / GSEA_GO_P2E + 
+ggsave("figures/6B_GSEA_GO_Epi_con.png", GSEA_GO_P1E / GSEA_GO_P2E + 
          plot_annotation(title = "GSEA for epithelial GO enrichment analysis", 
                          subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), 
        width = 15, height = 12)
 
-ggsave("figures/GSEA_KEGG_T_con.png", GSEA_KEGG_P1T / GSEA_KEGG_P2T + 
+ggsave("figures/7A_GSEA_KEGG_T_con.png", GSEA_KEGG_P1T / GSEA_KEGG_P2T + 
          plot_annotation(title = "GSEA for T-cell KEGG enrichment", 
                          subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), 
        width = 15, height = 14)
-ggsave("figures/GSEA_KEGG_Epi_con.png", GSEA_KEGG_P1E / GSEA_KEGG_P2E + 
+ggsave("figures/7B_GSEA_KEGG_Epi_con.png", GSEA_KEGG_P1E / GSEA_KEGG_P2E + 
          plot_annotation(title = "GSEA for epithelial KEGG enrichment", 
                          subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), 
        width = 15, height = 12)
 
-ggsave("figures/GSEA_ema_T_con.png", GSEA_ema_P1T / GSEA_ema_P2T + 
-         plot_annotation(title = "GSEA for T-cell pathway enrichment", 
-                         subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), 
-       width = 15, height = 10)
-ggsave("figures/GSEA_ema_Epi_con.png", GSEA_ema_P1E / GSEA_ema_P2E + 
-         plot_annotation(title = "GSEA for epithelial pathway enrichment", 
-                         subtitle = "Patient 1 (top row), Patient 2 (bottom row)"), 
-       width = 15, height = 8)
-
 #Cross patient
-ggsave("figures/Cross_patient_T.png", H_T, width = 14, height = 8)
-ggsave("figures/Cross_patient_epi.png", H_epi, width = 14, height = 8)
+ggsave("figures/8A_Cross_patient_T.png", H_T, width = 14, height = 8)
+ggsave("figures/8B_Cross_patient_epi.png", H_epi, width = 14, height = 8)
+
 
 
 
