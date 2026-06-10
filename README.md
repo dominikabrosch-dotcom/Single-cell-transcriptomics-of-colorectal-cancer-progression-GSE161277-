@@ -121,10 +121,17 @@ Quality-control metrics indicated good-quality cells across both patients after 
 ### Cell-type annotation
 UMAP visualization and canonical marker genes enabled identification of major epithelial, immune, stromal, and endothelial populations.
 
+![Cell_type plots](figures/4_Cell_Type.png)
+
 Marker expression patterns used for manual annotation:
+
+![Cell_type_ clusters plots](figures/3_Markers_in_clusters.png)
 
 ### Changes in cell-type composition
 Cell-type proportions were compared across normal tissue, adenoma, and carcinoma samples for each patient.
+
+
+![Cell_type diff_con plots](figures/5_Cell_type_diff_con.png.png)
 
 ### Epithelial compartment
 
@@ -164,7 +171,10 @@ Cross-patient analysis revealed that epithelial-cell programs were more reproduc
 Epithelial cells
 
 
+![Cross_patient2 plots](figures/8B_Cross_patient_epi.png)
+
 T cells
+![Cross_patient1 plots](figures/8A_Cross_patient_T.png)
 
 ---
 
