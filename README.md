@@ -1,4 +1,4 @@
-# Single-cell-transcriptomics-of-colorectal-cancer-progression-GSE161277-
+# Single cell transcriptomics of colorectal cancer progression GSE161277
 
 ## Project overview
 
@@ -111,7 +111,17 @@ Shared pathway signatures were visualized using pathway activity heatmaps.
 
 ---
 
-## Key findings
+## Key results
+### Quality control
+Quality-control metrics indicated good-quality cells across both patients after filtering.
+
+### Cell-type annotation
+UMAP visualization and canonical marker genes enabled identification of major epithelial, immune, stromal, and endothelial populations.
+
+Marker expression patterns used for manual annotation:
+
+### Changes in cell-type composition
+Cell-type proportions were compared across normal tissue, adenoma, and carcinoma samples for each patient.
 
 ### Epithelial compartment
 
@@ -148,17 +158,10 @@ However, T-cell pathway signatures showed greater inter-patient variability than
 
 Cross-patient analysis revealed that epithelial-cell programs were more reproducible between patients than immune-cell programs, suggesting stronger conservation of tumor-intrinsic transcriptional changes during CRC progression.
 
----
+Epithelial cells
 
-## Main figures
 
-* Quality control metrics
-* UMAP clustering and cell-type annotation
-* Cell-type composition across disease stages
-* Cluster marker validation
-* GO enrichment analysis
-* KEGG enrichment analysis
-* Cross-patient pathway reproducibility heatmaps
+T cells
 
 ---
 
