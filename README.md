@@ -131,7 +131,7 @@ Marker expression patterns used for manual annotation:
 Cell-type proportions were compared across normal tissue, adenoma, and carcinoma samples for each patient.
 
 
-![Cell_type diff_con plots](figures/5_Cell_type_diff_con.png.png)
+![Cell_type diff_con plots](figures/5_Cell_type_diff_con.png)
 
 ### Epithelial compartment
 
