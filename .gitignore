@@ -1,0 +1,67 @@
+# R
+
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio
+
+.Rproj.user/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Logs
+
+*.log
+
+# Large Seurat objects
+
+*.rds
+*.RDS
+*.rda
+*.RData
+
+# Saved workspaces
+
+*.RDataTmp
+
+# Results
+
+results/
+
+# Raw sequencing data
+
+GSE161277_RAW/
+
+# renv cache (if using renv)
+
+renv/library/
+renv/staging/
+
+# Jupyter (if used)
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# Quarto cache
+
+.quarto/
+
+# knitr cache
+
+_cache/
+cache/
