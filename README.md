@@ -112,8 +112,11 @@ Shared pathway signatures were visualized using pathway activity heatmaps.
 ---
 
 ## Key results
+
 ### Quality control
 Quality-control metrics indicated good-quality cells across both patients after filtering.
+
+![QC plots](figures/1_QC.png)
 
 ### Cell-type annotation
 UMAP visualization and canonical marker genes enabled identification of major epithelial, immune, stromal, and endothelial populations.
