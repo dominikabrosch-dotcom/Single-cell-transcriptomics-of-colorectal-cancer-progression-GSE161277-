@@ -75,13 +75,7 @@ Identified populations included:
 
 ### 4. Cell-type composition analysis
 
-The relative abundance of cell populations was compared between:
-
-* Normal tissue
-* Adenoma
-* Carcinoma
-
-for each patient separately.
+The relative abundance of cell populations was compared between normal tissue, adenoma and carcinoma for each patient separately.
 
 ### 5. Differential expression analysis
 
