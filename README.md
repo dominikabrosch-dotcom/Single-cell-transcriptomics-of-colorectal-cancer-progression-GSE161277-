@@ -189,8 +189,10 @@ Session information is available in the project files.
 
 ---
 
-Author:
+### Author
+
 Dominika Brosch
 
 #### LinkedIn:
 https://www.linkedin.com/in/dominika-brosch-9bb362267
+
